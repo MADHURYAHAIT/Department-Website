@@ -168,7 +168,7 @@ const Home = () => {
 
         <div class="app-card crd">
         <span>
-        <img width="100px" className="CouncilPic"  src='./public/images/aniket.jpeg'/>
+        <img width="100px" className="CouncilPic"  src='/images/aniket.jpeg'/>
         Aniket Rai <br/> (Technical Secretary)
         </span>
         <div class="app-card__subtext">Hey there I'm Aniket Rai, if there is any query related to technicalities you can approach me either through WhatsApp or personally so that I can solve your issues myself or with some help. Thank you.</div>
@@ -180,7 +180,7 @@ const Home = () => {
 
         <div class="app-card crd">
         <span>
-        <img width="100px" className="CouncilPic"  src='./public/images/shivam.jpeg'/>
+        <img width="100px" className="CouncilPic"  src='/images/shivam.jpeg'/>
         Shivam Saurav <br/> (T&P Coordinator)
         </span>
         <div class="app-card__subtext">Hi, my name is Shivam Sourav, the training and placement coordinator. If any question arises regarding the training and placement then you can approach me anyday if not in the campus then in the old boys hostel. My hobbies are playing cricket and Bgmi.</div>
@@ -192,7 +192,7 @@ const Home = () => {
 
         <div class="app-card crd">
         <span>
-        <img width="100px" className="CouncilPic"  src='./public/images/shubham.jpeg'/>
+        <img width="100px" className="CouncilPic"  src='/images/shubham.jpeg'/>
         Shubham Raj Satyam <br/> (Sports Secretary)
         </span>
         <div class="app-card__subtext" style={{width: "200px;"}}>One man practicing sportsmanship is far better than 50 preaching it". I’m Shubham Raj Satyam, Sports secretary of ATRIUM council ,SMIT. My strengths are self-motivated person, a quick learner, easy to adapt to any situation, a Positive thinker. Hobbies are Playing Cricket, Web Series,Driving,Swimming.I hope you all are doing well.</div>
