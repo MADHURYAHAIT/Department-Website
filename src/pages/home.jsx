@@ -17,7 +17,7 @@ const Home = () => {
        </svg>
        Department of Ai&Ds
       </h3>
-      <div class="content-text">Grab yourself 10 free images from Adobe Stock in a 30-day free trial plan and find perfect image, that will help you with your new project.</div>
+      <div class="content-text">The Department of Artificial Intelligence & Data Science in Sikkim Manipal Institute of Technology.</div>
       <button class="content-button">Start free trial</button>
      </div>
      <img class="content-wrapper-img" src="https://assets.codepen.io/3364143/glass.png" alt=""/>
@@ -128,7 +128,7 @@ const Home = () => {
      </ul>
     </div>
     <div class="content-section">
-     <div class="content-section-title">Apps in your plan</div>
+     <div class="content-section-title">Atrium Council Members</div>
      <div class="apps-card">
       <div class="app-card">
        <span>
@@ -138,7 +138,7 @@ const Home = () => {
           <path d="M192 64h-80c-8.832 0-16 7.168-16 16v352c0 8.832 7.168 16 16 16s16-7.168 16-16V256h64c52.928 0 96-43.072 96-96s-43.072-96-96-96zm0 160h-64V96h64c35.296 0 64 28.704 64 64s-28.704 64-64 64zM400 256h-32c-18.08 0-34.592 6.24-48 16.384V272c0-8.864-7.168-16-16-16s-16 7.136-16 16v160c0 8.832 7.168 16 16 16s16-7.168 16-16v-96c0-26.464 21.536-48 48-48h32c8.832 0 16-7.168 16-16s-7.168-16-16-16z" fill="#f6e7fa" data-original="#e1bee7" />
          </g>
         </svg>
-        Premiere Pro
+        Akhil Madhu Menon
        </span>
        <div class="app-card__subtext">Edit, master and create fully proffesional videos</div>
        <div class="app-card-buttons">
