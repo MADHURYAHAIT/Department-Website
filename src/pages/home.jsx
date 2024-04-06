@@ -8,7 +8,7 @@ const Home = () => {
      <div class="content-wrapper-context">
       <h3 class="img-content">
 
-       <img width="30px" style={{marginRight:'10px',borderRadius:'3px'}}  src='./public/images/atrium.jpg'/>
+       <img width="30px" style={{marginRight:'10px',borderRadius:'3px'}}  src='/images/atrium.jpg'/>
 
        Department of Ai&Ds
       </h3>
