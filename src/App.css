@@ -900,4 +900,10 @@ body.light-mode .video-bg:before {
 
 }
 
+@media screen and (max-width: 350px) {
+.dep-intro{
+  width: 170px;
 
+}
+
+}

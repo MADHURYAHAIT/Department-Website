@@ -5,14 +5,14 @@ const Home = () => {
     <>
     <div class="content-wrapper">
     <div class="content-wrapper-header">
-     <div class="content-wrapper-context">
+     <div class="content-wrapper-context dep-intro">
       <h3 class="img-content">
 
-       <img width="30px" style={{marginRight:'10px',borderRadius:'3px'}}  src='/images/atrium.jpg'/>
+       <img width="28px" style={{marginRight:'10px',borderRadius:'3px'}}  src='/images/atrium.jpg'/>
 
        Department of Ai&Ds
       </h3>
-      <div class="content-text">Welcome to the official website of Artificial Intelligence & Data Science in Sikkim Manipal Institute of Technology, where Passion meets Technology and Algorithms shape Possibilities.</div>
+      <div class="content-text ">Welcome to the site of Artificial Intelligence & Data Science in Sikkim Manipal Institute of Technology, where Passion meets Technology and Algorithms shape Possibilities.</div>
       <button class="content-button">See Upcoming Events</button>
      </div>
      <img class="content-wrapper-img" src="https://assets.codepen.io/3364143/glass.png" alt=""/>
