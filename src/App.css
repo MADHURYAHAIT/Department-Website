@@ -882,3 +882,22 @@ body.light-mode .video-bg:before {
   background: var(--scrollbar-bg);
   border-radius: 10px;
 }
+
+.CouncilPic{
+  width: 90px;
+  height: 90px;
+  border-radius: 10%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border: 1px solid var(--theme-color);
+  margin-right: 5%;
+}
+
+.app-card__subtext{
+
+  overflow: hidden; /* Hide overflowing content */
+  text-overflow: ellipsis; 
+
+}
+
+
