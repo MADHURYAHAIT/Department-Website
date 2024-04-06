@@ -134,7 +134,7 @@ const Home = () => {
 
         <div class="app-card crd" >
         <span>
-            <img width="100px" className="CouncilPic"  src='../../public/images/akhil.jpeg'/>
+            <img width="100px" className="CouncilPic"  src='./images/akhil.jpeg'/>
             Akhil Madhu Menon <br/>(President)
         </span>
         <div class="app-card__subtext" >I'm Akhil Menon, President of the ATRIUM Council and I hope to be outstanding in mine! Reading books, programming, and building projects captivate me greatly. Calisthenics, playing badminton & volleyball, are my favourite sport activities. Believing in my moto of making the world a better place to live in. I've always worked towards the same. </div>
@@ -146,7 +146,7 @@ const Home = () => {
 
         <div class="app-card crd">
         <span>
-            <img width="100px" className="CouncilPic"  src='../../public/images/ahana.jpeg'/>
+            <img width="100px" className="CouncilPic"  src='./images/ahana.jpeg'/>
         
             Ahana Sadh <br/> (Representative Girls)
         </span>
@@ -159,7 +159,7 @@ const Home = () => {
 
         <div class="app-card crd">
         <span>
-        <img width="100px" className="CouncilPic"  src='../../public/images/nithin.jpeg'/>
+        <img width="100px" className="CouncilPic"  src='./images/nithin.jpeg'/>
             M. Nithin Reddy<br/> (Representative Boys)
         </span>
         <div class="app-card__subtext">I'm Nithin reddy , Department representative of the ATRIUM Council. reading lots of graphic novel and non-fiction books, playing cricket, irritating my favourite person are my hobbies.I had a dream for the future…To Become A Cricketer and now never really thought about it, I'm sick of following my dreams, I'm just going to ask where they're going and hook up with "em later."</div>
@@ -173,7 +173,7 @@ const Home = () => {
 
         <div class="app-card crd">
         <span>
-        <img width="100px" className="CouncilPic"  src='../../public/images/aniket.jpeg'/>
+        <img width="100px" className="CouncilPic"  src='./public/images/aniket.jpeg'/>
         Aniket Rai <br/> (Technical Secretary)
         </span>
         <div class="app-card__subtext">Hey there I'm Aniket Rai, if there is any query related to technicalities you can approach me either through WhatsApp or personally so that I can solve your issues myself or with some help. Thank you.</div>
@@ -185,7 +185,7 @@ const Home = () => {
 
         <div class="app-card crd">
         <span>
-        <img width="100px" className="CouncilPic"  src='../../public/images/shivam.jpeg'/>
+        <img width="100px" className="CouncilPic"  src='./public/images/shivam.jpeg'/>
         Shivam Saurav <br/> (T&P Coordinator)
         </span>
         <div class="app-card__subtext">Hi, my name is Shivam Sourav, the training and placement coordinator. If any question arises regarding the training and placement then you can approach me anyday if not in the campus then in the old boys hostel. My hobbies are playing cricket and Bgmi.</div>
@@ -197,7 +197,7 @@ const Home = () => {
 
         <div class="app-card crd">
         <span>
-        <img width="100px" className="CouncilPic"  src='../../public/images/shubham.jpeg'/>
+        <img width="100px" className="CouncilPic"  src='./public/images/shubham.jpeg'/>
         Shubham Raj Satyam <br/> (Sports Secretary)
         </span>
         <div class="app-card__subtext" style={{width: "200px;"}}>One man practicing sportsmanship is far better than 50 preaching it". I’m Shubham Raj Satyam, Sports secretary of ATRIUM council ,SMIT. My strengths are self-motivated person, a quick learner, easy to adapt to any situation, a Positive thinker. Hobbies are Playing Cricket, Web Series,Driving,Swimming.I hope you all are doing well.</div>
