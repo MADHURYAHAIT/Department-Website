@@ -1,5 +1,6 @@
 import { useState,useEffect } from 'react'
 import './App.css'
+import NavBar from './pages/Nav';
 import Home from './pages/home';
 import React from 'react';
 
