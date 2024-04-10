@@ -893,13 +893,22 @@ body.light-mode .video-bg:before {
   margin-right: 5%;
 }
 
-.app-card__subtext{
-
-  overflow: hidden; /* Hide overflowing content */
-  text-overflow: ellipsis; 
+.app-card__subtext {
+  min-height: 310px;
+  overflow-y: hidden;
+  margin-top: 16px;
+  line-height: 1.7em;
+  color: #ebecec;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
 
 }
 
+
+
+.crd{
+  margin-bottom: 10px;
+}
 @media screen and (max-width: 440px) {
   .dep-intro{
     width: 180px;

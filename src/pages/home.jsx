@@ -147,7 +147,7 @@ const Home = () => {
         </span>
         <div class="app-card__subtext">I'm Ahana Sadh, the Department representative(Girls). My whole personality revolves around whoever my current favourite fictional character is. Other than using cleaning and organising as a way to procastinate, my day is usually spent reading, watching shows, and spending time with my friends. </div>
         <div class="app-card-buttons">
-            <button class="content-button status-button">Update</button>
+            <button class="content-button status-button">Info</button>
             <div class="menu"></div>
         </div>
         </div>
@@ -159,7 +159,7 @@ const Home = () => {
         </span>
         <div class="app-card__subtext">I'm Nithin reddy , Department representative of the ATRIUM Council. reading lots of graphic novel and non-fiction books, playing cricket, irritating my favourite person are my hobbies.I had a dream for the future…To Become A Cricketer and now never really thought about it, I'm sick of following my dreams, I'm just going to ask where they're going and hook up with "em later."</div>
         <div class="app-card-buttons">
-            <button class="content-button status-button">Update</button>
+            <button class="content-button status-button">Info</button>
             <div class="menu"></div>
         </div>
         </div>
@@ -173,7 +173,7 @@ const Home = () => {
         </span>
         <div class="app-card__subtext">Hey there I'm Aniket Rai, if there is any query related to technicalities you can approach me either through WhatsApp or personally so that I can solve your issues myself or with some help. Thank you.</div>
         <div class="app-card-buttons">
-            <button class="content-button status-button">Update</button>
+            <button class="content-button status-button">Info</button>
             <div class="menu"></div>
         </div>
         </div>
