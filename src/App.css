@@ -894,7 +894,7 @@ body.light-mode .video-bg:before {
 }
 
 .app-card__subtext {
-  min-height: 310px;
+  min-height: 290px;
   overflow-y: hidden;
   margin-top: 16px;
   line-height: 1.7em;

@@ -1,8 +1,15 @@
 import { useState,useEffect } from 'react'
+
+
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 import './App.css'
 import NavBar from './pages/Nav';
 import Home from './pages/home';
 import React from 'react';
+import Events from './pages/Events';
+import Council from './pages/Council';
 
 function App() {
   useEffect(() => {
@@ -109,7 +116,7 @@ function App() {
 
 
   return (
-    
+    <BrowserRouter>
     <div className="App">
       
       <div className="video-bg">
@@ -129,6 +136,8 @@ function App() {
       <div className="app">
         <div className="header">
           <div className="menu-circle"></div>
+
+
           <div className="header-menu">
             <a className="menu-link is-active" href="#">Apps</a>
             <a className="menu-link notify" href="#">Your work</a>
@@ -276,17 +285,14 @@ function App() {
    </div>
   </div>
   <div class="main-container">
-   <div class="main-header">
-    <a class="menu-link-main" href="#">All Apps</a>
-    <div class="header-menu">
-     <a class="main-header-link is-active" href="#">Desktop</a>
-     <a class="main-header-link" href="#">Mobile</a>
-     <a class="main-header-link" href="#">Web</a>
-
-    </div>
-   </div>
    
-      <Home/>
+
+   <Routes>  {/* Use Routes component for defining routes */}
+          <Route path="/"  element={<Home/>} />
+          <Route path="/events" element={<Events />} />
+          <Route path='/council' element={<Council/>}/>
+  </Routes>
+      {/* <Home/> */}
 
   </div>
  </div>
@@ -296,6 +302,7 @@ function App() {
 
       </div>
     </div>
+    </BrowserRouter>
   );
 }
 

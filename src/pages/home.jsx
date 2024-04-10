@@ -3,6 +3,17 @@ import React from 'react'
 const Home = () => {
   return (
     <>
+    <div class="main-header">
+    <a class="menu-link-main" href="#">All Apps</a>
+    <div class="header-menu">
+        <a class="main-header-link is-active" href="/">Intro</a>
+        <a class="main-header-link " href="/events">Events</a>
+        <a class="main-header-link " href="/council">Council</a>
+        <a class="main-header-link" href="/gallery">Gallery</a>
+
+    </div>
+   </div>
+   
     <div class="content-wrapper">
     <div class="content-wrapper-header">
      <div class="content-wrapper-context dep-intro">
@@ -124,7 +135,7 @@ const Home = () => {
     </div>
     <div class="content-section">
      <div class="content-section-title">Atrium Council Members</div>
-
+        
     <div class="apps-card">
 
         <div class="app-card crd" >
