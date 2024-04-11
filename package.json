@@ -1,19 +1,7 @@
 {
   "name": "departmentwebsite",
   "private": true,
-  "version": "0.0.1",
-  "builds": [
-    {
-      "src": "./server.js",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "destination": "/"
-    }
-  ],
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
