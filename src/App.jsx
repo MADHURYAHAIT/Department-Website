@@ -1,11 +1,9 @@
 import { useState,useEffect } from 'react'
-
-
-
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import './App.css'
 import NavBar from './pages/Nav';
+import Gallery from './pages/Gallery';
 import Home from './pages/home';
 import React from 'react';
 import Events from './pages/Events';
@@ -287,10 +285,11 @@ function App() {
   <div class="main-container">
    
 
-   <Routes>  {/* Use Routes component for defining routes */}
+  <Routes>  {/* Use Routes component for defining routes */}
           <Route path="/"  element={<Home/>} />
           <Route path="/events" element={<Events />} />
           <Route path='/council' element={<Council/>}/>
+          <Route path='/gallery' element={<Gallery/>}/>
   </Routes>
       {/* <Home/> */}
 

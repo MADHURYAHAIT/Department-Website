@@ -4,7 +4,7 @@ const Events = () => {
   return (
    <>
     <div class="main-header">
-    <a class="menu-link-main" href="#">All Apps</a>
+    <a class="menu-link-main" href="#">Ai&Ds</a>
     <div class="header-menu">
         <a class="main-header-link " href="/">Intro</a>
         <a class="main-header-link is-active" href="/events">Events</a>

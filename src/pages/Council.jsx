@@ -4,7 +4,7 @@ const Council = () => {
   return (
    <>
     <div class="main-header">
-    <a class="menu-link-main" href="#">All Apps</a>
+    <a class="menu-link-main" href="#">Ai&Ds</a>
     <div class="header-menu">
         <a class="main-header-link " href="/">Intro</a>
         <a class="main-header-link " href="/events">Events</a>
@@ -25,7 +25,7 @@ const Council = () => {
       <div class="content-text ">Welcome to the site of Artificial Intelligence & Data Science in Sikkim Manipal Institute of Technology, where Passion meets Technology and Algorithms shape Possibilities.</div>
       <a href="https://smu.edu.in/smit/dept-faculty/dept-list/dept-of-Artificial-intelligence-and-Data-science.html"><button class="content-button">Visit us to know more</button></a>
      </div>
-     <img class="content-wrapper-img" src="https://assets.codepen.io/3364143/glass.png" alt=""/>
+     <img class="content-wrapper-img" src="./images/intro.png" alt=""/>
     </div>
     <div class="content-section">
      <div class="content-section-title">Atrium Council Members</div>
