@@ -26,7 +26,7 @@ const Home = () => {
       <div class="content-text ">Welcome to the site of Artificial Intelligence & Data Science in Sikkim Manipal Institute of Technology, where Passion meets Technology and Algorithms shape Possibilities.</div>
       <a href="https://smu.edu.in/smit/dept-faculty/dept-list/dept-of-Artificial-intelligence-and-Data-science.html"><button class="content-button">Visit us to know more</button></a>
      </div>
-     <img class="content-wrapper-img" src="./images/logo.png " style={{paddingTop:'10px'}} alt="VR Boy"/>
+     <img class="content-wrapper-img" src="./images/logo.png " style={{padding:'10px'}} alt="VR Boy"/>
     </div>
     <div class="content-section">
      <div class="content-section-title">Installed</div>
