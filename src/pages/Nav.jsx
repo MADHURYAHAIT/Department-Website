@@ -7,7 +7,7 @@ function NavBar() {
     setSpotlightVisible(!spotlightVisible);
   };
 
-  return (
+  return   (
     <div id="topNav">
   <div id="leftOptions">
     <div id="appleLogo" class="option fa fa-apple">
