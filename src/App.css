@@ -948,5 +948,11 @@ body.light-mode .video-bg:before {
 
 }
 
+@media screen and (min-width: 1000px) {
 
+  .PhotoCont{
+    scale: 0.7;
+  }
+
+}
 
