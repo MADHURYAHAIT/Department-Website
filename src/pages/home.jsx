@@ -305,8 +305,7 @@ const Home = () => {
               </div>
             </div>
 
-           
-        <div class="app-card crd">
+            <div class="app-card crd">
               <span>
                 <img
                   width="100px"
@@ -327,19 +326,9 @@ const Home = () => {
                 </a>
                 <div class="menu"></div>
               </div>
-        </div>
-
-            
+            </div>
           </div>
         </div>
-        
-
-
-
-
-
-            
-
           </div>
          
           

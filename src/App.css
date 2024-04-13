@@ -491,6 +491,7 @@ body.light-mode .video-bg:before {
   margin-top: 16px;
   line-height: 1.7em;
   color: #ebecec;
+
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
@@ -912,11 +913,32 @@ body.light-mode .video-bg:before {
   margin-left: 0px !important;
   margin: 15px;
 }
+@media screen and (max-width: 390px) {
+
+  .content-wrapper-img{
+    transform: translateX(-10%) !important;
+  }
+.content-text{
+
+  font-size: smaller;
+}
+}
+
 @media screen and (max-width: 440px) {
   .dep-intro{
     width: 180px;
   }
 
+}
+@media screen and (min-width: 440px) and (max-width: 665px) {
+  .dep-intro{
+    width: 60%;
+  }
+
+}
+
+.box{
+  width: 100%;
 
 }
 
