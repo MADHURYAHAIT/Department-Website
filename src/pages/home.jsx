@@ -311,7 +311,7 @@ const Home = () => {
                 <img
                   width="100px"
                   className="CouncilPic"
-                  src="./images/sitalSir.jpg"
+                  src="./images/sitalSir.jpeg"
                 />
                 Mr. Sital Sharma
                 <br /> (Assistant Professor)

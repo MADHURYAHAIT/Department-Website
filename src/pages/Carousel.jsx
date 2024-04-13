@@ -33,6 +33,63 @@ const PhotoGallery = () => {
                  <img src="./gallery/3.jpg" className="d-block w-100 phomto"  alt="First slide" />
             </div>
         </div>
+
+          <div className="carousel-item">
+              <div className='PhotoCont'>
+                  <img src="./gallery/4.jpg" className="d-block w-100 phomto"  alt="First slide" />
+              </div>
+          </div>
+        <div className="carousel-item">
+            <div className='PhotoCont'>
+                 <img src="./gallery/5.jpg" className="d-block w-100 phomto"  alt="First slide" />
+            </div>
+        </div>
+        <div className="carousel-item">
+            <div className='PhotoCont'>
+                 <img src="./gallery/6.jpg" className="d-block w-100 phomto"  alt="First slide" />
+            </div>
+        </div>
+        <div className="carousel-item">
+            <div className='PhotoCont'>
+                 <img src="./gallery/7.jpg" className="d-block w-100 phomto"  alt="First slide" />
+            </div>
+        </div>
+        <div className="carousel-item">
+            <div className='PhotoCont'>
+                 <img src="./gallery/8.jpg" className="d-block w-100 phomto"  alt="First slide" />
+            </div>
+        </div>
+        <div className="carousel-item">
+            <div className='PhotoCont'>
+                 <img src="./gallery/9.jpg" className="d-block w-100 phomto"  alt="First slide" />
+            </div>
+        </div>
+        <div className="carousel-item">
+            <div className='PhotoCont'>
+                 <img src="./gallery/10.jpg" className="d-block w-100 phomto"  alt="First slide" />
+            </div>
+        </div>
+        <div className="carousel-item">
+            <div className='PhotoCont'>
+                 <img src="./gallery/11.jpg" className="d-block w-100 phomto"  alt="First slide" />
+            </div>
+        </div>
+        <div className="carousel-item">
+            <div className='PhotoCont'>
+                 <img src="./gallery/12.jpg" className="d-block w-100 phomto"  alt="First slide" />
+            </div>
+        </div>
+        <div className="carousel-item">
+            <div className='PhotoCont'>
+                 <img src="./gallery/13.jpg" className="d-block w-100 phomto"  alt="First slide" />
+            </div>
+        </div>
+        <div className="carousel-item">
+            <div className='PhotoCont'>
+                 <img src="./gallery/14.jpg" className="d-block w-100 phomto"  alt="First slide" />
+            </div>
+        </div>
+
         {/* Add more carousel items as needed */}
       </div>
       <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">

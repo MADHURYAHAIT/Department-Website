@@ -110,7 +110,7 @@ const Council = () => {
             <div class="menu"></div>
         </div>
         </div>
-
+            
     </div>
 
     
