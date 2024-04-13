@@ -137,7 +137,7 @@ function App() {
 
 
           <div className="header-menu">
-            <a className="menu-link is-active" href="#">Apps</a>
+            <a className="menu-link is-active" href="#">SMIT</a>
             <a className="menu-link notify" href="#">Your work</a>
             <a className="menu-link" href="#">Discover</a>
             <a className="menu-link notify" href="#">Market</a>

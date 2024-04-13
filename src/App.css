@@ -819,7 +819,7 @@ body.light-mode .video-bg:before {
   background-color: var(--content-bg);
   border-radius: 14px;
   border: 1px solid var(--theme-bg-color);
-  padding: 20px;
+  padding: 30px;
   cursor: pointer;
   transition: 0.3s ease;
 }
@@ -830,7 +830,6 @@ body.light-mode .video-bg:before {
 .app-card svg {
   width: 28px;
   border-radius: 6px;
-  margin-right: 12px;
   flex-shrink: 0;
 }
 .app-card + .app-card {
@@ -847,6 +846,8 @@ body.light-mode .video-bg:before {
   margin-top: 20px;
   border-bottom: 1px solid var(--border-color);
   padding-bottom: 20px;
+  
+  
 }
 .app-card-buttons {
   display: flex;
@@ -859,7 +860,7 @@ body.light-mode .video-bg:before {
     width: calc(50% - 20px);
   }
   .app-card:last-child {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 0px;
   }
 }
@@ -894,7 +895,7 @@ body.light-mode .video-bg:before {
 }
 
 .app-card__subtext {
-  min-height: 290px;
+
   overflow-y: hidden;
   margin-top: 16px;
   line-height: 1.7em;
@@ -907,7 +908,9 @@ body.light-mode .video-bg:before {
 
 
 .crd{
-  margin-bottom: 10px;
+ 
+  margin-left: 0px !important;
+  margin: 15px;
 }
 @media screen and (max-width: 440px) {
   .dep-intro{
