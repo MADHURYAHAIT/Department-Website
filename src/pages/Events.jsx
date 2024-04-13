@@ -22,7 +22,7 @@ const Events = () => {
 
          Department of Ai&Ds
       </h3>
-      <div class="content-text ">Welcome to the site of Artificial Intelligence & Data Science in Sikkim Manipal Institute of Technology, where Passion meets Technology and Algorithms shape Possibilities.</div>
+      <div class="content-text ">Contact Us : Dr. Om Prakash Singh (Head Department of AI&DS, Sikkim Manipal Institute of Technology)Mobile: (+91) 9800408668, Email: hod.ai@smit.smu.edu.in</div>
       <a href="https://smu.edu.in/smit/dept-faculty/dept-list/dept-of-Artificial-intelligence-and-Data-science.html"><button class="content-button">Visit us to know more</button></a>
      </div>
      <img class="content-wrapper-img" src="https://assets.codepen.io/3364143/glass.png" alt=""/>

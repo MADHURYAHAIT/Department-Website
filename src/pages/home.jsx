@@ -1,4 +1,5 @@
 import React from "react";
+import GoogleMap from './maps'
 
 const Home = () => {
   return (
@@ -329,6 +330,11 @@ const Home = () => {
             </div>
           </div>
         </div>
+
+        <div class="content-section">
+            <div class="content-section-title">Contact Us</div>
+                <GoogleMap/>
+            </div>
           </div>
          
           
@@ -338,3 +344,7 @@ const Home = () => {
 };
 
 export default Home;
+
+
+
+

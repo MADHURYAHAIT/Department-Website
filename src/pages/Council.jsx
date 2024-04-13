@@ -12,7 +12,6 @@ const Council = () => {
         <a class="main-header-link" href="/gallery">Gallery</a>
     </div>
    </div>
-   
     <div class="content-wrapper">
     <div class="content-wrapper-header">
      <div class="content-wrapper-context dep-intro">
