@@ -9,22 +9,29 @@ const PhotoGallery = () => {
     const carousel = document.querySelector('#carouselExampleControls');
     if (carousel) {
       new window.bootstrap.Carousel(carousel, {
-        interval: 1500 // Set the interval to 2 seconds (2000 milliseconds)
+        interval: 3000 // Set the interval to 2 seconds (2000 milliseconds)
       });
     }
   }, []);
 
   return (
-    <div id="carouselExampleControls" className="carousel slide align-items-center" data-bs-ride="carousel" data-bs-interval="2000">
+    <div id="carouselExampleControls" className="carousel slide align-items-center" data-bs-ride="carousel">
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src="./gallery/1.jpg" className="d-block w-100" alt="First slide" />
+            <div className='PhotoCont'>
+                 <img src="./gallery/1.jpg" className="d-block w-100 phomto" alt="First slide" />
+            </div>
         </div>
         <div className="carousel-item">
-          <img src="./gallery/2.jpg" className="d-block w-100" alt="Second slide" />
+            <div className='PhotoCont'>
+                 <img src="./gallery/2.jpg" className="d-block w-100 phomto" alt="First slide" />
+            </div>
+
         </div>
         <div className="carousel-item">
-          <img src="./gallery/3.jpg" className="d-block w-100" alt="Third slide" />
+            <div className='PhotoCont'>
+                 <img src="./gallery/3.jpg" className="d-block w-100 phomto"  alt="First slide" />
+            </div>
         </div>
         {/* Add more carousel items as needed */}
       </div>
