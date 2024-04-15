@@ -36,6 +36,58 @@ const Events = () => {
 
     
     </div>
+
+    <div class="content-section">
+     <div class="content-section-title">Past Events</div>
+
+     <section id="team" class="team">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4 col-md-6">
+                  <div class="member" data-aos="fade-up">
+                    <div class="pic">
+                      <img src="./images/talk1.jpeg" class="img-fluid" alt="" />
+                    </div>
+                    <div class="member-info">
+                      <h4>Unlocking the Secrets of ML</h4>
+                      <span>Date : 02-03-2024</span>
+                      <div class="social">
+                      Are you curious about the inner workings of Machine Learning models? Eager to unravel the mysteries behind predictions and decisions made by algorithms? Look no further! Join us for an engaging session as we delve into the fascinating realm of Explainable Machine Learning.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <div class="member" data-aos="fade-up">
+                    <div class="pic">
+                      <img
+                        src="./images/talk2.jpeg"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                    <div class="member-info">
+                      <h4>Introduction to 3D Printing</h4>
+                      <span>Date : 16-03-2024</span>
+                      <div class="social">
+                      On March 16th, the AI&DS and Mechanical Engineering Depts. are collaborating to host a seminar entitled "Introduction to 3D Printing". 
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+           
+
+                
+              </div>
+            </div>
+          </section>
+
+
+    
+    </div>
+
     </div>
    </>
   )
