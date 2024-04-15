@@ -30,11 +30,8 @@ const Events = () => {
    
     <div class="content-section">
      <div class="content-section-title">Upcoming Events</div>
-        <div class="box">
-              No Upcoming Events...
-              
-        </div>
 
+              No Upcoming Events...
 
 
     
