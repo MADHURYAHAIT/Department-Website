@@ -451,7 +451,7 @@ body.light-mode .video-bg:before {
 }
 @media screen and (max-width: 510px) {
   .content-wrapper {
-    padding: 20px;
+    padding: 30px;
   }
 }
 .content-wrapper-header {
