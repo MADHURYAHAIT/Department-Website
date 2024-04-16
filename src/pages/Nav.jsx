@@ -1,29 +1,42 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+
 const Nav = () => {
   return (
     <>
-      <div class="main-header">
-        <div class="menu-link-main" >
+      <div className="main-header">
+        <div className="menu-link-main">
           Ai&Ds
         </div>
-        <div class="header-menu">
-          <NavLink class="main-header-link is-active" to="/">
+        <div className="header-menu">
+          <NavLink exact to="/" isActive={(match, location) => {
+            // Return true if the location pathname starts with the NavLink's "to" prop
+            return match || location.pathname.startsWith('/');
+          }} activeClassName="is-active">
             Intro
           </NavLink>
-          <NavLink class="main-header-link" to="/events">
+          <NavLink to="/events" isActive={(match, location) => {
+            // Return true if the location pathname starts with the NavLink's "to" prop
+            return match || location.pathname.startsWith('/events');
+          }} activeClassName="is-active">
             Events
           </NavLink>
-          <NavLink class="main-header-link" to="/council">
+          <NavLink to="/council" isActive={(match, location) => {
+            // Return true if the location pathname starts with the NavLink's "to" prop
+            return match || location.pathname.startsWith('/council');
+          }} activeClassName="is-active">
             Council
           </NavLink>
-          <NavLink class="main-header-link" to="/gallery">
+          <NavLink to="/gallery" isActive={(match, location) => {
+            // Return true if the location pathname starts with the NavLink's "to" prop
+            return match || location.pathname.startsWith('/gallery');
+          }} activeClassName="is-active">
             Gallery
           </NavLink>
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default Nav
+export default Nav;

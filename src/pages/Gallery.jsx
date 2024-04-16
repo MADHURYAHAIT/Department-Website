@@ -4,7 +4,7 @@ import PhotoGallery from './Carousel'
 const Gallery = () => {
   return (
     <>
-        <div class="content-wrapper">
+        <div class="content-wrapper glry">
             <PhotoGallery/>
         </div>
     </>

@@ -439,7 +439,12 @@ body.light-mode .video-bg:before {
     display: none;
   }
 }
+@media screen and (max-width: 610px) {
+  .PhotoCont{
+    height: 70vh;
 
+  }
+}
 .content-wrapper {
   display: flex;
   flex-direction: column;
