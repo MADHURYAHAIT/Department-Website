@@ -62,7 +62,7 @@ const Events = () => {
                   <div class="member" data-aos="fade-up">
                     <div class="pic">
                       <img
-                        src="./images/talk2.jpeg"
+                        src="./images/talk2.jpg"
                         class="img-fluid"
                         alt=""
                       />
