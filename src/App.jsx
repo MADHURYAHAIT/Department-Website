@@ -9,7 +9,7 @@ import React from 'react';
 import Events from './pages/Events';
 import Council from './pages/Council';
 import Nav from './pages/Nav';
-
+import { NavLink } from 'react-router-dom'
 function App() {
   useEffect(() => {
     // Menu link click event handler
@@ -138,10 +138,10 @@ function App() {
 
 
           <div className="header-menu">
-            <a className="menu-link is-active" href="#">SMIT</a>
-            <a className="menu-link notify" href="#">Your work</a>
-            <a className="menu-link" href="#">Discover</a>
-            <a className="menu-link notify" href="#">Market</a>
+            <NavLink className="menu-link is-active" to="#">SMIT</NavLink>
+            <NavLink className="menu-link notify" to="#">Your work</NavLink>
+            <NavLink className="menu-link" to="#">Discover</NavLink>
+            <NavLink className="menu-link notify" to="#">Market</NavLink>
           </div>
           <div className="search-bar">
             <input type="text" placeholder="Search" />

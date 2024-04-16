@@ -4,9 +4,9 @@ const Nav = () => {
   return (
     <>
       <div class="main-header">
-        <a class="menu-link-main" href="#">
+        <div class="menu-link-main" >
           Ai&Ds
-        </a>
+        </div>
         <div class="header-menu">
           <NavLink class="main-header-link is-active" to="/">
             Intro
