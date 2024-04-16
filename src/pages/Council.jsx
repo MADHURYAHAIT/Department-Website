@@ -3,25 +3,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 const Council = () => {
   return (
     <>
-      <div class="main-header">
-        <a class="menu-link-main" href="#">
-          Ai&Ds
-        </a>
-        <div class="header-menu">
-          <a class="main-header-link " href="/">
-            Intro
-          </a>
-          <a class="main-header-link " href="/events">
-            Events
-          </a>
-          <a class="main-header-link is-active" href="/council">
-            Council
-          </a>
-          <a class="main-header-link" href="/gallery">
-            Gallery
-          </a>
-        </div>
-      </div>
+
       <div class="content-wrapper">
         <div class="content-wrapper-header">
           <div class="content-wrapper-context dep-intro">
@@ -170,6 +152,36 @@ const Council = () => {
                     </div>
                   </div>
                 </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <div class="member" data-aos="fade-up">
+                    <div class="pic">
+                      <img
+                        src="./images/anshit.jpeg"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                    <div class="member-info">
+                      <h4>Anshit Upadhay</h4>
+                      <span>T&P Secretary</span>
+                      <div class="social">
+                        <a href="">
+                          <i class="bi bi-twitter"></i>
+                        </a>
+                        <a href="">
+                          <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="">
+                          <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="">
+                          <i class="bi bi-linkedin"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </section>
@@ -269,8 +281,8 @@ const Council = () => {
                       <img src="./images/sneha.jpeg" class="img-fluid" alt="" />
                     </div>
                     <div class="member-info">
-                      <h4>Shubham Raj Satyam</h4>
-                      <span>Sports Secretary</span>
+                      <h4>Sneha Das Choudhury</h4>
+                      <span>Cultural Secretary</span>
                       <div class="social">
                         <a href="">
                           <i class="bi bi-twitter"></i>
@@ -299,8 +311,8 @@ const Council = () => {
                       />
                     </div>
                     <div class="member-info">
-                      <h4>M. Nithin Reddy</h4>
-                      <span>Representative Boys</span>
+                      <h4>Shubham Raj Satyam</h4>
+                      <span>Sports Secretary</span>
                       <div class="social">
                         <a href="">
                           <i class="bi bi-twitter"></i>

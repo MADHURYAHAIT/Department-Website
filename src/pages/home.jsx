@@ -4,26 +4,6 @@ import GoogleMap from './maps'
 const Home = () => {
   return (
     <>
-      <div class="main-header">
-        <a class="menu-link-main" href="#">
-          Ai&Ds
-        </a>
-        <div class="header-menu">
-          <a class="main-header-link is-active" href="/">
-            Intro
-          </a>
-          <a class="main-header-link " href="/events">
-            Events
-          </a>
-          <a class="main-header-link " href="/council">
-            Council
-          </a>
-          <a class="main-header-link" href="/gallery">
-            Gallery
-          </a>
-        </div>
-      </div>
-
       <div class="content-wrapper">
         <div class="content-wrapper-header">
           <div class="content-wrapper-context dep-intro">
@@ -80,7 +60,7 @@ const Home = () => {
                 Updated
               </span>
               <div class="button-wrapper">
-                <button class="content-button status-button open">Open</button>
+                <button class="content-button status-button open">Copy</button>
                 <div class="menu">
                   <button class="dropdown">
                     <ul>
@@ -140,7 +120,7 @@ const Home = () => {
                       stroke-width="2"
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      class="feather feather-x-circle"
+                      className="feather feather-x-circle"
                     >
                       <circle cx="12" cy="12" r="10" />
                       <path d="M15 9l-6 6M9 9l6 6" />

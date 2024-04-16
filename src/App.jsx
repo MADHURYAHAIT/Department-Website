@@ -1,6 +1,6 @@
 import { useState,useEffect } from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
+import {  Routes, Route } from 'react-router-dom';
+import PhotoGallery from './pages/Carousel'
 import './App.css'
 import NavBar from './pages/Nav';
 import Gallery from './pages/Gallery';
@@ -8,6 +8,7 @@ import Home from './pages/home';
 import React from 'react';
 import Events from './pages/Events';
 import Council from './pages/Council';
+import Nav from './pages/Nav';
 
 function App() {
   useEffect(() => {
@@ -114,7 +115,7 @@ function App() {
 
 
   return (
-    <BrowserRouter>
+
     <div className="App">
       
       <div className="video-bg">
@@ -283,10 +284,10 @@ function App() {
    </div>
   </div>
   <div class="main-container">
-   
+   <Nav/>
 
   <Routes>  {/* Use Routes component for defining routes */}
-          <Route path="/"  element={<Home/>} />
+          <Route exact path="/" element={<Home/>} />
           <Route path="/events" element={<Events />} />
           <Route path='/council' element={<Council/>}/>
           <Route path='/gallery' element={<Gallery/>}/>
@@ -301,7 +302,7 @@ function App() {
 
       </div>
     </div>
-    </BrowserRouter>
+
   );
 }
 

@@ -1,6 +1,4 @@
 import React, { useEffect } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './PhotoGallery.css'; // Import your custom CSS file for additional styling
 
 const PhotoGallery = () => {

@@ -3,16 +3,6 @@ import React from 'react'
 const Events = () => {
   return (
    <>
-    <div class="main-header">
-    <a class="menu-link-main" href="#">Ai&Ds</a>
-    <div class="header-menu">
-        <a class="main-header-link " href="/">Intro</a>
-        <a class="main-header-link is-active" href="/events">Events</a>
-        <a class="main-header-link " href="/council">Council</a>
-        <a class="main-header-link" href="/gallery">Gallery</a>
-    </div>
-   </div>
-   
     <div class="content-wrapper">
     <div class="content-wrapper-header">
      <div class="content-wrapper-context dep-intro">
@@ -61,8 +51,7 @@ const Events = () => {
                 <div class="col-lg-4 col-md-6">
                   <div class="member" data-aos="fade-up">
                     <div class="pic">
-                      <img
-                        src="./images/talk2.jpg"
+                      <img src="./images/talk2.jpg"
                         class="img-fluid"
                         alt=""
                       />
