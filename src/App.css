@@ -1073,3 +1073,12 @@ body.light-mode .video-bg:before {
     opacity: 0.95;
   }
 }
+
+
+.team .member{
+  margin-bottom: 80px;
+}
+
+.side-menu a{
+  cursor:not-allowed;
+}

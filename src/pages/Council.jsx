@@ -1,5 +1,7 @@
 import React from "react";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import data from "../constants/data2024";
+import OldData from "../constants/data2023";
 const Council = () => {
   return (
     <>
@@ -36,151 +38,35 @@ const Council = () => {
           <section id="team" class="team">
             <div class="container">
               <div class="row">
-                <div class="col-lg-4 col-md-6">
-                  <div class="member" data-aos="fade-up">
-                    <div class="pic">
-                      <img src="./images/ankit.jpeg" class="img-fluid" alt="" />
-                    </div>
-                    <div class="member-info">
-                      <h4>Ankit Ritu</h4>
-                      <span>President</span>
-                      <div class="social">
-                        <a href="">
-                          <i class="bi bi-twitter"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-facebook"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-instagram"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-linkedin"></i>
-                        </a>
+                {
+                    data.map((member, index) => (
+                        <div key={index} class="col-lg-4 col-md-6">
+                        <div class="member" data-aos="fade-up">
+                          <div class="pic">
+                            <img src={member.img} class="img-fluid" alt="" />
+                          </div>
+                          <div class="member-info">
+                            <h4>{member.name}</h4>
+                            <span>{member.position}</span>
+                            <div class="social">
+                              <a href="">
+                                <i class="bi bi-twitter"></i>
+                              </a>
+                              <a href="">
+                                <i class="bi bi-facebook"></i>
+                              </a>
+                              <a href="">
+                                <i class="bi bi-instagram"></i>
+                              </a>
+                              <a href="">
+                                <i class="bi bi-linkedin"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                  <div class="member" data-aos="fade-up">
-                    <div class="pic">
-                      <img
-                        src="./images/anushree.jpeg"
-                        class="img-fluid"
-                        alt=""
-                      />
-                    </div>
-                    <div class="member-info">
-                      <h4>Anushree Tyagi</h4>
-                      <span>Cultural Secretary</span>
-                      <div class="social">
-                        <a href="">
-                          <i class="bi bi-twitter"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-facebook"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-instagram"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-linkedin"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                  <div class="member" data-aos="fade-up">
-                    <div class="pic">
-                      <img
-                        src="./images/rafiullah.jpeg"
-                        class="img-fluid"
-                        alt=""
-                      />
-                    </div>
-                    <div class="member-info">
-                      <h4>Rafiullah Ansari</h4>
-                      <span>Treasurer</span>
-                      <div class="social">
-                        <a href="">
-                          <i class="bi bi-twitter"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-facebook"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-instagram"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-linkedin"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                  <div class="member" data-aos="fade-up">
-                    <div class="pic">
-                      <img
-                        src="./images/sambhav.jpeg"
-                        class="img-fluid"
-                        alt=""
-                      />
-                    </div>
-                    <div class="member-info">
-                      <h4>Sambhav Jaiswal</h4>
-                      <span>Sports Secretary</span>
-                      <div class="social">
-                        <a href="">
-                          <i class="bi bi-twitter"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-facebook"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-instagram"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-linkedin"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                  <div class="member" data-aos="fade-up">
-                    <div class="pic">
-                      <img
-                        src="./images/anshit.jpeg"
-                        class="img-fluid"
-                        alt=""
-                      />
-                    </div>
-                    <div class="member-info">
-                      <h4>Anshit Upadhay</h4>
-                      <span>T&P Secretary</span>
-                      <div class="social">
-                        <a href="">
-                          <i class="bi bi-twitter"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-facebook"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-instagram"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-linkedin"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                    ))
+                }
               </div>
             </div>
           </section>
@@ -190,207 +76,41 @@ const Council = () => {
         <div class="content-section">
           <div class="content-section-title">X-Council Members</div>
           <section id="team" class="team">
-            <div class="container">
+          <div class="container">
               <div class="row">
-                <div class="col-lg-4 col-md-6">
-                  <div class="member" data-aos="fade-up">
-                    <div class="pic">
-                      <img src="./images/akhil.jpeg" class="img-fluid" alt="" />
-                    </div>
-                    <div class="member-info">
-                      <h4>Akhil Madhu Menon</h4>
-                      <span>President</span>
-                      <div class="social">
-                        <a href="">
-                          <i class="bi bi-twitter"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-facebook"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-instagram"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-linkedin"></i>
-                        </a>
+                {
+                     OldData.map((member, index) => (
+                        <div key={index} class="col-lg-4 col-md-6">
+                        <div class="member" data-aos="fade-up">
+                          <div class="pic">
+                            <img src={member.img} class="img-fluid" alt="" />
+                          </div>
+                          <div class="member-info">
+                            <h4>{member.name}</h4>
+                            <span>{member.position}</span>
+                            <div class="social">
+                              <a href="">
+                                <i class="bi bi-twitter"></i>
+                              </a>
+                              <a href="">
+                                <i class="bi bi-facebook"></i>
+                              </a>
+                              <a href="">
+                                <i class="bi bi-instagram"></i>
+                              </a>
+                              <a href="">
+                                <i class="bi bi-linkedin"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                  </div>
-                </div>
+                    ))
 
-                <div class="col-lg-4 col-md-6">
-                  <div class="member" data-aos="fade-up" data-aos-delay="150">
-                    <div class="pic">
-                      <img src="./images/ahana.jpeg" class="img-fluid" alt="" />
-                    </div>
-                    <div class="member-info">
-                      <h4>Ahana Sadh</h4>
-                      <span>Representative Girls</span>
-                      <div class="social">
-                        <a href="">
-                          <i class="bi bi-twitter"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-facebook"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-instagram"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-linkedin"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                  <div class="member" data-aos="fade-up" data-aos-delay="300">
-                    <div class="pic">
-                      <img
-                        src="./images/nithin.jpeg"
-                        class="img-fluid"
-                        alt=""
-                      />
-                    </div>
-                    <div class="member-info">
-                      <h4>M. Nithin Reddy</h4>
-                      <span>Representative Boys</span>
-                      <div class="social">
-                        <a href="">
-                          <i class="bi bi-twitter"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-facebook"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-instagram"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-linkedin"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                  <div class="member" data-aos="fade-up" data-aos-delay="300">
-                    <div class="pic">
-                      <img src="./images/sneha.jpeg" class="img-fluid" alt="" />
-                    </div>
-                    <div class="member-info">
-                      <h4>Sneha Das Choudhury</h4>
-                      <span>Cultural Secretary</span>
-                      <div class="social">
-                        <a href="">
-                          <i class="bi bi-twitter"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-facebook"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-instagram"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-linkedin"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                  <div class="member" data-aos="fade-up" data-aos-delay="300">
-                    <div class="pic">
-                      <img
-                        src="./images/shubham.jpeg"
-                        class="img-fluid"
-                        alt=""
-                      />
-                    </div>
-                    <div class="member-info">
-                      <h4>Shubham Raj Satyam</h4>
-                      <span>Sports Secretary</span>
-                      <div class="social">
-                        <a href="">
-                          <i class="bi bi-twitter"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-facebook"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-instagram"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-linkedin"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                  <div class="member" data-aos="fade-up" data-aos-delay="300">
-                    <div class="pic">
-                      <img
-                        src="./images/aniket.jpeg"
-                        class="img-fluid"
-                        alt=""
-                      />
-                    </div>
-                    <div class="member-info">
-                      <h4>Aniket Rai</h4>
-                      <span>Technical Secretary</span>
-                      <div class="social">
-                        <a href="">
-                          <i class="bi bi-twitter"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-facebook"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-instagram"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-linkedin"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                  <div class="member" data-aos="fade-up" data-aos-delay="300">
-                    <div class="pic">
-                      <img
-                        src="./images/shivam.jpeg"
-                        class="img-fluid"
-                        alt=""
-                      />
-                    </div>
-                    <div class="member-info">
-                      <h4>Shivam Saurav</h4>
-                      <span>T&P Coordinator</span>
-                      <div class="social">
-                        <a href="">
-                          <i class="bi bi-twitter"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-facebook"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-instagram"></i>
-                        </a>
-                        <a href="">
-                          <i class="bi bi-linkedin"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+                }
             </div>
+        </div>
+
           </section>
         </div>
       </div>
