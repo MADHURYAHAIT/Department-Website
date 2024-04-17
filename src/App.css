@@ -447,7 +447,7 @@ body.light-mode .video-bg:before {
 }
 @media screen and (max-width: 610px) {
   .PhotoCont{
-    height: 50vh !important;
+    height: 60vh !important;
 
   }
 }
@@ -977,7 +977,7 @@ body.light-mode .video-bg:before {
 
   .PhotoCont{
     scale: 50%;
-    height: 60vh !important;
+    height: 63vh !important;
   }
 
 }
@@ -1125,6 +1125,7 @@ body.light-mode .video-bg:before {
   font-weight: 400;
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
+
 .Preloader p{
   font-family: "San Francisco", Arial, sans-serif;
   padding-top: 45vh;
