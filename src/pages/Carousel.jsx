@@ -103,7 +103,6 @@ const PhotoGallery = () => {
             </div>
         </div>
 
-
         {/* Add more carousel items as needed */}
       </div>
       <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
