@@ -9,28 +9,16 @@ const Nav = () => {
           Ai&Ds
         </div>
         <div className="header-menu">
-          <NavLink exact to="/" isActive={(match, location) => {
-            // Return true if the location pathname starts with the NavLink's "to" prop
-            return match || location.pathname.startsWith('/');
-          }} activeClassName="is-active">
+          <NavLink exact className="main-header-link" activeClassName="is-active" to="/">
             Intro
           </NavLink>
-          <NavLink to="/events" isActive={(match, location) => {
-            // Return true if the location pathname starts with the NavLink's "to" prop
-            return match || location.pathname.startsWith('/events');
-          }} activeClassName="is-active">
+          <NavLink className="main-header-link" activeClassName="is-active" to="/events">
             Events
           </NavLink>
-          <NavLink to="/council" isActive={(match, location) => {
-            // Return true if the location pathname starts with the NavLink's "to" prop
-            return match || location.pathname.startsWith('/council');
-          }} activeClassName="is-active">
+          <NavLink className="main-header-link" activeClassName="is-active" to="/council">
             Council
           </NavLink>
-          <NavLink to="/gallery" isActive={(match, location) => {
-            // Return true if the location pathname starts with the NavLink's "to" prop
-            return match || location.pathname.startsWith('/gallery');
-          }} activeClassName="is-active">
+          <NavLink className="main-header-link" activeClassName="is-active" to="/gallery">
             Gallery
           </NavLink>
         </div>
