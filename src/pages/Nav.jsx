@@ -8,7 +8,7 @@ const Nav = () => {
         <div className="menu-link-main">
           Ai&Ds
         </div>
-        <div className="header-menu">
+        <div className="header-menu nv">
           <NavLink exact className="main-header-link" activeClassName="is-active" to="/">
             Intro
           </NavLink>

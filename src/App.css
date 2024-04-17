@@ -82,8 +82,8 @@ img {
 
 .dark-light {
   position: fixed;
-  bottom: 50px;
-  right: 30px;
+  bottom: 20px;
+  right: 20px;
   background-color: var(--dropdown-bg);
   box-shadow: -1px 3px 8px -1px rgba(0, 0, 0, 0.2);
   padding: 8px;
@@ -433,6 +433,12 @@ body.light-mode .video-bg:before {
   text-decoration: none;
   color: var(--theme-color);
   padding: 0 30px;
+}
+
+@media screen and (min-width: 1400px) {
+  .nv{
+    padding: 40px;
+  }
 }
 @media screen and (max-width: 1055px) {
   .menu-link-main {
@@ -1040,4 +1046,27 @@ body.light-mode .video-bg:before {
 
 .team .member {
   margin-bottom: 100px;
+}
+
+.PgFooter{
+  
+  border: 1px solid var(--border-color);
+  padding: 8px;
+  font-size: smaller;
+  text-align: center;
+  color: var(--theme-color);
+  opacity: 0.6;
+}
+.PgFooter a{
+  color: var(--theme-color);
+}
+
+@media screen and (max-width: 610px) {
+  .PgFooter {
+    opacity: 0.35;
+    padding-bottom: 20px;
+  }
+  .PgFooter a{
+    opacity: 0.95;
+  }
 }

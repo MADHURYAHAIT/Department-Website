@@ -3,6 +3,7 @@ import {  Routes, Route } from 'react-router-dom';
 import PhotoGallery from './pages/Carousel'
 import './App.css'
 import NavBar from './pages/Nav';
+import Footer from './pages/Footer';
 import Gallery from './pages/Gallery';
 import Home from './pages/home';
 import React from 'react';
@@ -158,7 +159,7 @@ function App() {
             <svg viewBox="0 0 512 512" fill="currentColor">
               <path d="M448.773 235.551A135.893 135.893 0 00451 211c0-74.443-60.557-135-135-135-47.52 0-91.567 25.313-115.766 65.537-32.666-10.59-66.182-6.049-93.794 12.979-27.612 19.013-44.092 49.116-45.425 82.031C24.716 253.788 0 290.497 0 331c0 7.031 1.703 13.887 3.006 20.537l.015.015C12.719 400.492 56.034 436 106 436h300c57.891 0 106-47.109 106-105 0-40.942-25.053-77.798-63.227-95.449z" />
             </svg>
-            <img className="profile-img" src="https://yt3.googleusercontent.com/RTGS8fej7PVFJjF0cnWKRzzyPQgC9KBYwQZspLZsI5ZlcJcwccxvx42KMHSh_S9mvQa5eZyKTQ=s900-c-k-c0x00ffffff-no-rj" alt="" />
+            <a href='https://www.linkedin.com/in/madhuryahait/'><img className="profile-img" src="./images/profilepic.png" alt="Madhurya Hait" /></a>
           </div>
         </div>
 
@@ -292,6 +293,7 @@ function App() {
           <Route path='/council' element={<Council/>}/>
           <Route path='/gallery' element={<Gallery/>}/>
   </Routes>
+  <Footer/>
       {/* <Home/> */}
 
   </div>

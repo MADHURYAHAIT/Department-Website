@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Footer from './Footer'
 const Events = () => {
   return (
    <>
@@ -74,10 +74,10 @@ const Events = () => {
           </section>
 
 
-    
     </div>
 
     </div>
+
    </>
   )
 }

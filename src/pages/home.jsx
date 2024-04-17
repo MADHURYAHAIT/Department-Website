@@ -1,5 +1,6 @@
 import React from "react";
 import GoogleMap from './maps'
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -274,8 +275,8 @@ const Home = () => {
                 <br /> (Assistant Professor)
               </span>
               <div class="app-card__subtext">
-                Himangshu Pal is Assistant Professor-I in the Department of AI &
-                DS at SMIT. He is Deputy Chairman, Admission Cell Alumni
+                Himangshu Pal is an Assistant Professor - I in the Department of AI &
+                DS at SMIT. He is the Deputy Chairman, Admission Cell Alumni
                 Engagement Cell Member
               </div>
               <div class="app-card-buttons">
@@ -316,7 +317,9 @@ const Home = () => {
                 <GoogleMap/>
             </div>
           </div>
+        
          
+       
           
 
     </>
