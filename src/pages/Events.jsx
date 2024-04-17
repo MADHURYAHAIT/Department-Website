@@ -38,12 +38,9 @@ const Events = () => {
                     <div class="pic">
                       <img src="./images/talk1.jpeg" class="img-fluid" alt="" />
                     </div>
-                    <div class="member-info">
+                    <div class="member-info eventText">
                       <h4>Unlocking the Secrets of ML</h4>
                       <span>Date : 02-03-2024</span>
-                      <div class="social">
-                      Are you curious about the inner workings of Machine Learning models? Eager to unravel the mysteries behind predictions and decisions made by algorithms? Look no further! Join us for an engaging session as we delve into the fascinating realm of Explainable Machine Learning.
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -56,19 +53,12 @@ const Events = () => {
                         alt=""
                       />
                     </div>
-                    <div class="member-info">
+                    <div class="member-info eventText">
                       <h4>Introduction to 3D Printing</h4>
                       <span>Date : 16-03-2024</span>
-                      <div class="social">
-                      On March 16th, the AI&DS and Mechanical Engineering Depts. are collaborating to host a seminar entitled "Introduction to 3D Printing". 
-                      </div>
                     </div>
                   </div>
-                </div>
-
-           
-
-                
+                </div>                
               </div>
             </div>
           </section>

@@ -447,7 +447,7 @@ body.light-mode .video-bg:before {
 }
 @media screen and (max-width: 610px) {
   .PhotoCont{
-    height: 70vh;
+    height: 60vh;
 
   }
 }
@@ -873,6 +873,7 @@ body.light-mode .video-bg:before {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.6em;
+  color: var(--theme-color) !important;
   margin-top: 20px;
   border-bottom: 1px solid var(--border-color);
   padding-bottom: 20px;
@@ -975,7 +976,8 @@ body.light-mode .video-bg:before {
 @media screen and (min-width: 1000px) {
 
   .PhotoCont{
-    scale: 0.7;
+    scale: 50%;
+    height: 65vh;
   }
 
 }
@@ -998,14 +1000,15 @@ body.light-mode .video-bg:before {
   background: #fff;
   padding: 20px 0;
   color: #2f4d5a;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 15px 10px rgba(0, 0, 0, 0.223);
   max-height: 95px;
   overflow: hidden;
   transition: max-height 0.5s ease-in-out;
 }
-.team .member:hover .member-info {
+/* .team .member:hover .member-info {
   max-height: 300px;
-}
+} */
+
 .team .member h4 {
   font-weight: 700;
   margin-bottom: 10px;

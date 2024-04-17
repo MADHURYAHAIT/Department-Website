@@ -225,7 +225,6 @@ const Home = () => {
                   src="./images/opSir.jpeg"
                 />
                 Dr. Om Prakash Singh
-                <br />
                 (HOD)
               </span>
               <div class="app-card__subtext">
@@ -248,13 +247,13 @@ const Home = () => {
                   className="CouncilPic"
                   src="./images/swarupSir.jpg"
                 />
-                Dr. Swarup Sarkar <br /> (Associate Professor)
+                Dr. Swarup Sarkar (Associate Professor)
               </span>
               <div class="app-card__subtext">
                 {" "}
-                Dr. Swarup Sarkar is the Associate Professor , Lab in Charge,
+                Dr. Swarup Sarkar is the Associate Professor of Ai & Ds, Lab in Charge,
                 VLSI Lab, chairman of different Institutional and Departmental
-                Committee at SMIT
+                Committee at (SMIT), Sikkim.
               </div>
               <div class="app-card-buttons">
                 <a href="https://smu.edu.in/smit/dept-faculty/faculty-list/swarup-sarkar.html">
@@ -277,7 +276,7 @@ const Home = () => {
               <div class="app-card__subtext">
                 Himangshu Pal is an Assistant Professor - I in the Department of AI &
                 DS at SMIT. He is the Deputy Chairman, Admission Cell Alumni
-                Engagement Cell Member
+                Engagement Cell Member of (SMIT) , Sikkim.
               </div>
               <div class="app-card-buttons">
                 <a href="https://smu.edu.in/smit/dept-faculty/faculty-list/himangshu-pal.html">

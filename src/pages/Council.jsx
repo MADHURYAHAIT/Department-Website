@@ -3,7 +3,6 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 const Council = () => {
   return (
     <>
-
       <div class="content-wrapper">
         <div class="content-wrapper-header">
           <div class="content-wrapper-context dep-intro">
