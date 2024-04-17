@@ -1073,7 +1073,7 @@ body.light-mode .video-bg:before {
     opacity: 0.95;
   }
   .Preloader p{
-    padding-top: 38vh !important;
+    padding-top: 30vh !important;
     font-size: 0.35cm !important;
   }
 
