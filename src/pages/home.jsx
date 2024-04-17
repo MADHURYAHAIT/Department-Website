@@ -7,6 +7,7 @@ import { MdEmail } from "react-icons/md";
 const Home = () => {
   return (
     <>
+   
       <div class="content-wrapper">
         <div class="content-wrapper-header">
           <div class="content-wrapper-context dep-intro">
@@ -93,10 +94,10 @@ const Home = () => {
                 </span>
                 <div class="button-wrapper">
                     hod.ai@smit.smu.edu.in
+                    <div class="menu"/>
                 </div>
-                <div class="menu"/>
               </li>
-              
+
               {/* <li class="adobe-product">
                 <div class="products">
                   <svg
