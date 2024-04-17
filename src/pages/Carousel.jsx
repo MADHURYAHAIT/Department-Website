@@ -87,6 +87,22 @@ const PhotoGallery = () => {
                  <img src="./gallery/14.jpg" className="d-block w-100 phomto"  alt="First slide" />
             </div>
         </div>
+        <div className="carousel-item">
+            <div className='PhotoCont'>
+                 <img src="./gallery/15.jpg" className="d-block w-100 phomto"  alt="First slide" />
+            </div>
+        </div>
+        <div className="carousel-item">
+            <div className='PhotoCont'>
+                 <img src="./gallery/16.jpg" className="d-block w-100 phomto"  alt="First slide" />
+            </div>
+        </div>
+        <div className="carousel-item">
+            <div className='PhotoCont'>
+                 <img src="./gallery/17.jpg" className="d-block w-100 phomto"  alt="First slide" />
+            </div>
+        </div>
+
 
         {/* Add more carousel items as needed */}
       </div>
