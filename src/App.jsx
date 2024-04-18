@@ -18,7 +18,7 @@ function App() {
     const simulatePageLoad = () => {
       setTimeout(() => {
         setPageLoaded(true);
-      }, 2000); // Change this timeout to match your actual loading time
+      }, 3500); // Change this timeout to match your actual loading time
     };
 
     simulatePageLoad();
