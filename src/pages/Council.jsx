@@ -17,9 +17,7 @@ const Council = () => {
               Department of Ai&Ds
             </h3>
             <div class="content-text ">
-              Welcome to the site of Artificial Intelligence & Data Science in
-              Sikkim Manipal Institute of Technology, where Passion meets
-              Technology and Algorithms shape Possibilities.
+            Atrium is the only Council of Artificial Intelligence & Data Science at Sikkim Manipal Institute of Technology, which stands by its motto: 'one heart | one dream | infinite possibilities.
             </div>
             <a href="https://smu.edu.in/smit/dept-faculty/dept-list/dept-of-Artificial-intelligence-and-Data-science.html">
               <button class="content-button">Visit us to know more</button>
