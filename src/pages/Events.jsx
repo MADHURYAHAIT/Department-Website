@@ -9,7 +9,6 @@ const Events = () => {
         <h3 class="img-content" style={{ width: "300px" }}>
 
        <img width="28px" style={{marginRight:'10px',borderRadius:'3px'}}  src='/images/atrium.jpg'/>
-
          Department of Ai&Ds
       </h3>
       <div class="content-text ">Contact Us : Dr. Om Prakash Singh (Head Department of AI&DS, Sikkim Manipal Institute of Technology)Mobile: (+91) 9800408668, Email: hod.ai@smit.smu.edu.in</div>
@@ -21,10 +20,7 @@ const Events = () => {
     <div class="content-section">
      <div class="content-section-title">Upcoming Events</div>
 
-              No Upcoming Events...
-
-
-    
+              No Upcoming Events...    
     </div>
 
     <div class="content-section">

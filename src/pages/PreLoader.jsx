@@ -4,7 +4,7 @@ const PreLoader = () => {
   return (
     <div className='Preloader'>
 
-        <img src='./images/apple.png'/>
+        <img src='./images/Launch.png'/>
         <p>
         Loading Ai&Ds options...
         </p>

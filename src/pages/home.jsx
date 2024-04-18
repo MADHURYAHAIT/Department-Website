@@ -53,7 +53,7 @@ const Home = () => {
                 </div>
                 <span class="status">
                   <span class="status-circle green"></span>
-                  HOD
+                  Ai&Ds HOD
                 </span>
                 
                 <div class="button-wrapper">

@@ -14,10 +14,11 @@ import PreLoader from "./pages/PreLoader";
 function App() {
   const [isPageLoaded, setPageLoaded] = useState(false);
 
+
   
   useEffect(() => {
     const loadTime = window.performance.timing.loadEventEnd - window.performance.timing.navigationStart;
-
+    
     if (loadTime > 0) {
       // If the load time is greater than 0, it means the page has already loaded
       setPageLoaded(true);

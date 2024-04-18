@@ -27,7 +27,7 @@ const Council = () => {
           </div>
           <img
             class="content-wrapper-img"
-            src="https://assets.codepen.io/3364143/glass.png"
+            src="./images/atrium.png"
             alt=""
           />
         </div>
