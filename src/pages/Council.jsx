@@ -72,7 +72,7 @@ const Council = () => {
         {/* Old Council */}
 
         <div class="content-section">
-          <div class="content-section-title">X-Council Members</div>
+          <div class="content-section-title">Ex-Council Members</div>
           <section id="team" class="team">
           <div class="container">
               <div class="row">
